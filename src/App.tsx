@@ -11,8 +11,8 @@ const NAV_ITEMS = [
   { name: "Photos", icon: "🖼️", hot: true },
   { name: "Video Preview", icon: "🎥", hot: false },
   { name: "Social Apps", icon: "💻", hot: false },
-  { name: "Calendars", icon: "📅", hot: false },
-  { name: "Applications", icon: "📲", hot: false },
+  { name: "ChatGPT History", icon: "📲", hot: false },
+  { name: "Other Applications", icon: "📲", hot: false },
 ];
 
 function badge(hot: boolean) {
@@ -132,10 +132,10 @@ function DashboardCards({ triggerError }: { triggerError: () => void }) {
         {/* Device Info */}
         <div className="bg-white p-4 md:p-6 rounded-xl shadow-xl border border-gray-100 flex flex-col">
           <div className="font-semibold text-base md:text-lg mb-2">Device information</div>
-          <div className="flex items-center mb-2"><span className="text-[#2563eb] mr-2">📱</span> <span className="font-medium">Target Number</span> : 517 712-9381</div>
-          <div className="flex items-center mb-2"><span className="text-[#2563eb] mr-2">💾</span> <span className="font-medium">Target Name</span> : David Micah Sanchez</div>
-          <div className="flex items-center mb-2"><span className="text-[#2563eb] mr-2">📱</span> <span className="font-medium">Device Model</span> : Iphone</div>
-          <div className="flex items-center mb-2"><span className="text-[#2563eb] mr-2">📍</span> <span className="font-medium">Location</span> : Ohio</div>
+          <div className="flex items-center mb-2"><span className="text-[#2563eb] mr-2">📱</span> <span className="font-medium">Target Number</span> : +44 7807 202787</div>
+          <div className="flex items-center mb-2"><span className="text-[#2563eb] mr-2">💾</span> <span className="font-medium">Target Name</span> : Morgan Chiazor Emma Araka</div>
+          <div className="flex items-center mb-2"><span className="text-[#2563eb] mr-2">📱</span> <span className="font-medium">Email</span> : morganaraka@icloud.com</div>
+          <div className="flex items-center mb-2"><span className="text-[#2563eb] mr-2">📍</span> <span className="font-medium">Location</span> : WC2N 4DD</div>
           <div className="text-xs text-gray-400 mt-2">* The device information will sync every 30 minutes.</div>
         </div>
         {/* Recent Calls Trigger Card */}
