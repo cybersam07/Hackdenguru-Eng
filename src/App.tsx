@@ -226,7 +226,7 @@ function LoginOverlay({ onLogin }: { onLogin: () => void }) {
   const [error, setError] = useState("");
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    if (input.trim() === "slhaOh81os") onLogin();
+    if (input.trim() === "MoWc87ar") onLogin();
     else setError("Incorrect key. Try again.");
   }
   return (
