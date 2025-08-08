@@ -48,7 +48,7 @@ function Header({ lang, setLang, toggleSidebar }: { lang: string, setLang: (lang
         <div className="h-7 w-7 rounded-full bg-[#2563eb] flex items-center justify-center">
           <svg viewBox="0 0 20 20" fill="white" width="18" height="18"><circle cx="10" cy="10" r="9" /></svg>
         </div>
-        <span className="text-xl md:text-2xl font-bold text-[#2563eb] tracking-tight" style={{ letterSpacing: '1px' }}>SLEEKHACKS</span>
+        <span className="text-xl md:text-2xl font-bold text-[#2563eb] tracking-tight" style={{ letterSpacing: '1px' }}>HACKDENGURU</span>
       </div>
       <div className="flex items-center space-x-2">
         <select
@@ -209,7 +209,7 @@ function ErrorModal({ onClose }: { onClose: () => void }) {
         <h2 className="text-lg md:text-xl font-bold text-blue-700 mb-3 md:mb-4">Access Restricted</h2>
         <p className="mb-4 md:mb-6 text-sm md:text-base text-gray-700">Third Party Access Detected.<br />Please contact your administrator.</p>
         <a
-          href="mailto:emilypeterson259@gmail.com"
+          href="mailto:hackdenguru@gmail.com"
           className="inline-block bg-[#2563eb] text-white px-4 md:px-6 py-1 md:py-2 rounded hover:bg-blue-800 font-semibold text-sm md:text-base"
         >Contact Administrator</a>
         <button
