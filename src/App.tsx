@@ -69,7 +69,7 @@ function Sidebar({ current, onNav, dateStr, isOpen }: { current: string, onNav: 
       <div className="p-4 border-b border-gray-200">
         <div className="text-xs text-gray-400">Updated: {dateStr}</div>
         <div className="mt-4 md:mt-6 flex items-center">
-          <span className="inline-flex items-center text-sm md:text-base font-semibold text-gray-900"><span className="mr-2">📱</span>Galaxy S10</span>
+          <span className="inline-flex items-center text-sm md:text-base font-semibold text-gray-900"><span className="mr-2">📱</span> </span>
         </div>
       </div>
       <nav className="mt-4 md:mt-6 flex-1 overflow-y-auto">
@@ -207,7 +207,7 @@ function ErrorModal({ onClose }: { onClose: () => void }) {
       <div className="absolute inset-0 backdrop-blur-sm bg-black/40"></div>
       <div className="relative z-10 bg-white rounded-lg shadow-lg p-6 md:p-8 max-w-xs w-full text-center">
         <h2 className="text-lg md:text-xl font-bold text-blue-700 mb-3 md:mb-4">Access Restricted</h2>
-        <p className="mb-4 md:mb-6 text-sm md:text-base text-gray-700">Third Party Access Detected.<br />Please contact your administrator.</p>
+        <p className="mb-4 md:mb-6 text-sm md:text-base text-gray-700">File cannot be accessed on Device.<br />Please contact your administrator.</p>
         <a
           href="mailto:hackdenguru@gmail.com"
           className="inline-block bg-[#2563eb] text-white px-4 md:px-6 py-1 md:py-2 rounded hover:bg-blue-800 font-semibold text-sm md:text-base"
