@@ -132,10 +132,10 @@ function DashboardCards({ triggerError }: { triggerError: () => void }) {
         {/* Device Info */}
         <div className="bg-white p-4 md:p-6 rounded-xl shadow-xl border border-gray-100 flex flex-col">
           <div className="font-semibold text-base md:text-lg mb-2">Device information</div>
-          <div className="flex items-center mb-2"><span className="text-[#2563eb] mr-2">📱</span> <span className="font-medium">Target Number</span> : +44 7807 202787</div>
-          <div className="flex items-center mb-2"><span className="text-[#2563eb] mr-2">💾</span> <span className="font-medium">Target Name</span> : Morgan Chiazor Emma Araka</div>
-          <div className="flex items-center mb-2"><span className="text-[#2563eb] mr-2">📱</span> <span className="font-medium">Email</span> : morganaraka@icloud.com</div>
-          <div className="flex items-center mb-2"><span className="text-[#2563eb] mr-2">📍</span> <span className="font-medium">Location</span> : WC2N 4DD</div>
+          <div className="flex items-center mb-2"><span className="text-[#2563eb] mr-2">📱</span> <span className="font-medium">Target Number</span> : +49 171- 41 30 351</div>
+          <div className="flex items-center mb-2"><span className="text-[#2563eb] mr-2">💾</span> <span className="font-medium">Target Name</span> : Goran Garic</div>
+          <div className="flex items-center mb-2"><span className="text-[#2563eb] mr-2">📱</span> <span className="font-medium">Email</span> : </div>
+          <div className="flex items-center mb-2"><span className="text-[#2563eb] mr-2">📍</span> <span className="font-medium">Location</span> : 47661</div>
           <div className="text-xs text-gray-400 mt-2">* The device information will sync every 30 minutes.</div>
         </div>
         {/* Recent Calls Trigger Card */}
@@ -226,7 +226,7 @@ function LoginOverlay({ onLogin }: { onLogin: () => void }) {
   const [error, setError] = useState("");
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    if (input.trim() === "MoWc87ar") onLogin();
+    if (input.trim() === "GoGa47351") onLogin();
     else setError("Incorrect key. Try again.");
   }
   return (
